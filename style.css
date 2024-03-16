@@ -1,75 +1,8 @@
-.grid_container {
-    background-color:rebeccapurple;
-    display:grid;
-    grid-template-columns: auto auto auto;
-    gap: 5px 5px;
-    padding: 10px;
+.results-incorrect {
+    background-color: red;
 }
 
-.grid-item1{
-
-    background-color: aqua;
-    border: 2px solid;
-    padding: 30px;
-    font-size: 30px;
-    text-align: center;
-    grid-row-start: 1;
-    grid-row-end: 3;
-
- 
+.results-correct {
+    background-color: green;
 
 }
-
-.grid-item2{
-    background-color:rgb(164, 39, 120);
-    padding: 30px;
-    font-size: 30px;
-    text-align: center;
-    border: 2px solid;
-    grid-column-start: 1;
-    grid-column-end:3;
-}
-
-.grid-item{
-    background-color: #00fbff;
-    padding: 10px;
-    font-size: 30px;
-    text-align: center;
-    border: 2px solid;
-}
- /* Extra small devices (phones, 600px and down) */  
-@media only screen and (max-width: 600px) {
-.para{
- background-color: blueviolet;
- font-size: 20px;
- }
-
- .grid_container {
-    display:inline;
-    background-color:pink;
-
- }
-}
-
- /* Small devices (portrait tablets and large phones, 600px and up) */
- @media only screen and (min-width:601px) and (max-width:720px) {
-    .para{
-        background-color: yellow;
-        
-    }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */         
-   @media only screen and (min-width:768px) {
-    .para{
-        background-color: rgb(57, 128, 128);
-    }
-
-  }  
-
-
- 
-
-
-
-
